@@ -1,0 +1,23 @@
+# Ignorar arquivos e diretórios específicos do sistema
+.DS_Store
+
+# Ignorar diretórios de ambientes virtuais
+env-visao/
+
+# Ignorar arquivos temporários do sistema operacional
+*.swp
+*.swo
+*.tmp
+
+# Ignorar diretórios de cache
+__pycache__/
+*.pyc
+
+# Ignorar arquivos gerados por editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de configuração do Git
+.gitconfig
